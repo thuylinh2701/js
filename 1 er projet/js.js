@@ -5,3 +5,7 @@ function myFunction() {
   node.appendChild(textnode);
   document.getElementById("demo").appendChild(node);
 }
+function myFunctionR() {
+  var list = document.getElementById("demo");
+  list.removeChild(list.childNodes[0]);
+}
